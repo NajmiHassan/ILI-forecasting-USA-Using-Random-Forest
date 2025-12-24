@@ -1,4 +1,4 @@
-This repo is implementing Random Forest Regressor on WHO epidemiological surveillance data (fluID dataset). The model accuracy is 87.34% with Mean Absolute Percentage Error (MAPE) of 12.66%.
+This repo is implementing Random Forest Regressor on WHO epidemiological surveillance data (fluID dataset). TThe model achieved a Mean Absolute Percentage Error (MAPE) of 12.66%, meaning predictions deviated by about 13% on average from observed ILI counts.
 Input feature are past 4 weeks ILI cases (Lag_1 to Lag_4).
 The below Time-Series plot shows the comparison of training data, actual data (test data), and Predictions over time made by the model. Random Forest captured the seasonal patterns and short-term trends but did not predict the peaks of the outbreak.
 
